@@ -22,7 +22,6 @@ SIR mathematical model for infectious diseases optimized for COVID-19 using ital
 
 | Date           | Infected   | Cases      |
 |:--------------:|:----------:|:----------:|
-| 2020-04-01     | 78251      | 109061     |
 | 2020-04-02     | 79622      | 112941     |
 | 2020-04-03     | 80590      | 116455     |
 | 2020-04-04     | 81181      | 119617     |
@@ -32,14 +31,15 @@ SIR mathematical model for infectious diseases optimized for COVID-19 using ital
 | 2020-04-08     | 80439      | 129193     |
 | 2020-04-09     | 79648      | 130946     |
 | 2020-04-10     | 78679      | 132493     |
+| 2020-04-11     | 79345      | 135329     |
 
 ### Optimized SIR parameters
 
 ```
-N = 145395.55236770277
-beta = 0.20637815745237342
-gamma = 0.03153732222289436
-delay = 37
+N = 147761.15634913126
+beta = 0.20299661046883946
+gamma = 0.03107115948449899
+delay = 38
 ```
 
 All results are available in the folders `images` and `data`.
