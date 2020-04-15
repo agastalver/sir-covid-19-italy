@@ -142,7 +142,7 @@ def fdelay_lockdown(delay, lckday, nlckdays):
     return result
 
 lckday = dft.index.get_loc(pd.to_datetime("2020-03-09"))
-nlckdays = 35 # days
+nlckdays = 55 # days
 
 delay = 0 # days back
 result = fdelay_lockdown(delay, lckday, nlckdays)
