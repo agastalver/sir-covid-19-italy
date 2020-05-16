@@ -142,7 +142,7 @@ def fdelay_lockdown(delay, lckday, nlckdays):
     return result
 
 lckday = dft.index.get_loc(pd.to_datetime("2020-03-09"))
-nlckdays = 55 # days
+nlckdays = 86 # days
 
 delay = 0 # days back
 result = fdelay_lockdown(delay, lckday, nlckdays)
@@ -174,7 +174,7 @@ dft["susceptible"] = N - dft["infected"] - dft["recovered"]
 
 # forecasting
 
-far = 60 # days
+far = 74 # days
 
 #S, I, R =  sir(N, beta, gamma, days + far + delay)
 S, I, R = sir_lockdown(N, beta, gamma, days + far + delay, delta, lckday + delay, lckday + nlckdays + delay)
